@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;400;500&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <form class="container">
+        <form class="container">
+          <div class="sections">
+            <div class="section-1">
+              <div class="header">
+                <h2>Encriptador</h2>
+              </div>
+              <textarea
+                class="text-area"
+                type="text" 
+                placeholder="Escribe aquí tu texto..."
+              ></textarea>
+              <div class="actions">
+                <button class="encript" onclick="btnEncriptar()">Encriptar</button>
+                <button onclick="desencriptar()">Desencriptar</button>
+              </div>
+            </div>
+            <div class="section-2">
+              <div class="text-container">
+                <!-- <div class="text">
+                  <img src="./Muñeco.png" alt="no-text" class="boy" />
+                  <h3>Ningún mensaje fue encontrado</h3>
+                  <p class="text-1">
+                    Ingresa el texto que deseas encriptar o desencriptar
+                  </p>
+                </div> -->
+                <div id="changingDiv">
+                  <textarea class="mensaje" placeholder="Aquí aparecerá el texto encriptado"></textarea>
+                </div>
+                <div class="copy">
+                  <button>Copiar</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
